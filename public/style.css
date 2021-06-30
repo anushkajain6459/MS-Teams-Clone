@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 #video-grid {
   display: flex;
@@ -22,12 +22,13 @@ video {
   display: block;
   flex: 1;
   object-fit: cover;
-  border: 5px solid #000;
+  background-color: #9b9bc2;
   max-width: 600px;
 }
 .main {
   height: 100%;
   display: flex;
+  background-color: #9b9bc2;
 }
 .main__left {
   flex: 0.8;
@@ -38,12 +39,15 @@ video {
   flex: 0.2;
   display: flex;
   flex-direction: column;
-  background-color: #242324;
-  border-left: 1px solid #3d3d42;
+  background-color: #1c1e20;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 .main__videos {
   flex-grow: 1;
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: #9b9bc2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,6 +58,9 @@ video {
   color: #d2d2d2;
   padding: 5px;
   justify-content: space-between;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 .main__controls_block {
   display: flex;
@@ -81,14 +88,16 @@ video {
   font-size: 25px;
 }
 .leaveMeeting {
-  background-color: red;
+  background-color: #5558af;
   color: #fff;
 }
 .main__header {
   color: #f5f5f5;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   border-bottom: 2px solid #3d3d42;
+  /* font-size: large; */
+  font-size: 20px;
 }
 .main__chat__window {
   flex-grow: 1;
@@ -115,5 +124,5 @@ video {
   padding: 10px 0;
 }
 .unmute {
-  color: red;
+  color: #5558af;
 }
