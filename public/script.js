@@ -1,3 +1,4 @@
+// -------JavaScript for frontend-------
 const socket = io("/");
 const chatInputBox = document.getElementById("chat_message");
 const all_messages = document.getElementById("all_messages");
@@ -13,7 +14,7 @@ var peer = new Peer(undefined, {
 });
 
 let myVideoStream;
-
+// -- a web api that prompts the user for permission to use a media input..get media accepts the object
 var getUserMedia =
   navigator.getUserMedia ||
   navigator.webkitGetUserMedia ||
@@ -21,10 +22,10 @@ var getUserMedia =
 
 navigator.mediaDevices
   .getUserMedia({
-    video: true,
-    audio: true,
+    video: true, // to get video
+    audio: true,  // to get audio
   })
-  .then((stream) => {
+  .then((stream) => {   //means we have acess now
     myVideoStream = stream;
     addVideoStream(myVideo, stream);
 
@@ -91,10 +92,11 @@ const connectToNewUser = (userId, streams) => {
 
 const addVideoStream = (videoEl, stream) => {
   videoEl.srcObject = stream;
+  // through this video would be played
   videoEl.addEventListener("loadedmetadata", () => {
     videoEl.play();
   });
-
+  //Adding the video..
   videoGrid.append(videoEl);
   let totalUsers = document.getElementsByTagName("video").length;
   if (totalUsers > 1) {
