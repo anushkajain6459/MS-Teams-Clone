@@ -151,3 +151,17 @@ const setMuteButton = () => {
   <span>Mute</span>`;
   document.getElementById("muteButton").innerHTML = html;
 };
+const ShowChat=(e) =>{
+  e.classList.toggle("active");
+  document.body.classList.toggle("ShowChat");
+};
+
+
+document.getElementById('leave-meeting').addEventListener('click', () => {
+  const redirect = confirm('Redirecting you to the home page...');
+
+  if (redirect) {
+  
+    window.location = 'redirect/redirect.html';
+  } 
+});

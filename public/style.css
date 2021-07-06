@@ -24,10 +24,12 @@ video {
   object-fit: cover;
   background-color: #9b9bc2;
   max-width: 600px;
+  border-radius: 5px;
 }
 .main {
   height: 100%;
   display: flex;
+  /* background-color: #9b9bc2; */
   background-color: #9b9bc2;
 }
 .main__left {
@@ -41,13 +43,14 @@ video {
   flex-direction: column;
   background-color: #1c1e20;
   border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 8px;
 }
 .main__videos {
   flex-grow: 1;
   /* background-color: #000; */
   background-color: #9b9bc2;
+  /* background-color: #464775; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,8 +62,8 @@ video {
   padding: 5px;
   justify-content: space-between;
   border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 2px;
 }
 .main__controls_block {
   display: flex;
@@ -75,7 +78,7 @@ video {
   min-width: 80px;
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
-  margin: 5px;
+  margin: 3px;
 }
 .main__controls_button span {
   margin-top: 10px;
@@ -88,8 +91,10 @@ video {
   font-size: 25px;
 }
 .leaveMeeting {
-  background-color: #5558af;
+  /* background-color: #5558af; */
+  /* background-color: #464775; */
   color: #fff;
+  padding: 6px;
 }
 .main__header {
   color: #f5f5f5;
