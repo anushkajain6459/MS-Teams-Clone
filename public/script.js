@@ -165,3 +165,22 @@ document.getElementById('leave-meeting').addEventListener('click', () => {
     window.location = 'redirect/redirect.html';
   } 
 });
+
+
+// Onclick for theme change---
+const toggle=document.getElementById('toggle');
+const main= document.querySelector('.main');
+console.log(toggle,main,myVideo)
+toggle.addEventListener('click', () => {
+  console.log(toggle.classList)
+ if(main.classList.contains('main-toggle') && myVideo.classList.contains('main-toggle') ){
+  main.classList.remove('main-toggle')
+  myVideo.classList.remove('main-toggle')
+ }
+
+  else{
+    main.classList.add('main-toggle')
+    myVideo.classList.add('main-toggle')
+  }
+
+});

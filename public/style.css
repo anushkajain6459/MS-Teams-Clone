@@ -22,15 +22,22 @@ video {
   display: block;
   flex: 1;
   object-fit: cover;
-  background-color: #9b9bc2;
+  /* background-color: #9b9bc2; */
   max-width: 600px;
   border-radius: 5px;
+  /* dark theme  */
+  /* filter: invert(1) hue-rotate(100deg); */
 }
 .main {
   height: 100%;
   display: flex;
   /* background-color: #9b9bc2; */
   background-color: #9b9bc2;
+  /* dark theme */
+  /* filter: invert(1) hue-rotate(50deg); */
+}
+.main-toggle {
+  filter: invert(1) hue-rotate(180deg);
 }
 .main__left {
   flex: 0.8;
