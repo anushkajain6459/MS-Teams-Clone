@@ -185,7 +185,7 @@ toggle.addEventListener('click', () => {
 
 });
 
-// onclick for video filter
+// onclick for video filter --grayscale
 const grayscale=document.getElementById('grayscale');
 console.log(myVideo)
 grayscale.addEventListener('click', () => {
@@ -196,6 +196,36 @@ grayscale.addEventListener('click', () => {
 
   else{
     myVideo.classList.add('filter-grayscale')
+  }
+
+});
+
+// onclick for video filter --contrast
+const contrast=document.getElementById('contrast');
+console.log(myVideo)
+contrast.addEventListener('click', () => {
+  console.log(contrast.classList)
+ if(myVideo.classList.contains('filter-contrast') ){
+  myVideo.classList.remove('filter-contrast')
+ }
+
+  else{
+    myVideo.classList.add('filter-contrast')
+  }
+
+});
+
+// onclick for video filter --sepia
+const sepia=document.getElementById('sepia');
+console.log(myVideo)
+sepia.addEventListener('click', () => {
+  console.log(sepia.classList)
+ if(myVideo.classList.contains('filter-sepia') ){
+  myVideo.classList.remove('filter-sepia')
+ }
+
+  else{
+    myVideo.classList.add('filter-sepia')
   }
 
 });
