@@ -184,3 +184,18 @@ toggle.addEventListener('click', () => {
   }
 
 });
+
+// onclick for video filter
+const grayscale=document.getElementById('grayscale');
+console.log(myVideo)
+grayscale.addEventListener('click', () => {
+  console.log(grayscale.classList)
+ if(myVideo.classList.contains('filter-grayscale') ){
+  myVideo.classList.remove('filter-grayscale')
+ }
+
+  else{
+    myVideo.classList.add('filter-grayscale')
+  }
+
+});

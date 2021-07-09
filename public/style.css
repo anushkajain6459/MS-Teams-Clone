@@ -39,6 +39,9 @@ video {
 .main-toggle {
   filter: invert(1) hue-rotate(180deg);
 }
+.filter-grayscale {
+  filter: grayscale(100%);
+}
 .main__left {
   flex: 0.8;
   display: flex;
