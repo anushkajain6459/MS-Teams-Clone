@@ -163,7 +163,7 @@ const ShowChat = (e) => {
 
 //Leave Meeting Button
 document.getElementById('leave-meeting').addEventListener('click', () => {
-  const redirect = confirm('Redirecting you to the home page...');
+  const redirect = confirm('Redirecting you to the home page..');
 
   if (redirect) {
     window.location = 'redirect/redirect.html';
