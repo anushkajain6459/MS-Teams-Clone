@@ -6,7 +6,6 @@ body {
   height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: #bebebe; */
   background: #cfcbcb;
 }
 .header {
@@ -21,7 +20,6 @@ body {
   margin: auto;
 }
 .logo {
-  /* float: left; */
   text-align: center;
   height: 20px;
   padding: 15px;
@@ -51,7 +49,16 @@ a {
   font-weight: 600;
   color: #302c2c;
   margin: 40px 8px 10px 8px;
+  /* Box Shadow(Different Brwosers) */
   -webkit-box-shadow: 14px 14px 16px 0px rgba(0, 0, 0, 0.67);
   -moz-box-shadow: 14px 14px 16px 0px rgba(0, 0, 0, 0.67);
   box-shadow: 14px 14px 16px 0px rgba(0, 0, 0, 0.67);
+}
+.content {
+  position: relative;
+}
+.content img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
