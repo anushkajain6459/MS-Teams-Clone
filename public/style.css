@@ -22,19 +22,13 @@ video {
   display: block;
   flex: 1;
   object-fit: cover;
-  /* background-color: #9b9bc2; */
   max-width: 600px;
   border-radius: 5px;
-  /* dark theme  */
-  /* filter: invert(1) hue-rotate(100deg); */
 }
 .main {
   height: 100%;
   display: flex;
-  /* background-color: #9b9bc2; */
   background-color: #9b9bc2;
-  /* dark theme */
-  /* filter: invert(1) hue-rotate(50deg); */
 }
 .main-toggle {
   filter: invert(1) hue-rotate(180deg);
@@ -109,9 +103,7 @@ video {
 }
 .main__videos {
   flex-grow: 1;
-  /* background-color: #000; */
   background-color: #9b9bc2;
-  /* background-color: #464775; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,8 +144,6 @@ video {
   font-size: 25px;
 }
 .leaveMeeting {
-  /* background-color: #5558af; */
-  /* background-color: #464775; */
   color: #fff;
   padding: 6px;
 }
@@ -162,7 +152,6 @@ video {
   text-align: center;
   padding: 10px;
   border-bottom: 2px solid #3d3d42;
-  /* font-size: large; */
   font-size: 20px;
 }
 .main__chat__window {
@@ -191,4 +180,14 @@ video {
 }
 .unmute {
   color: #5558af;
+}
+#chat_message {
+  background-color: #efe9f4;
+  padding: 7px;
+  border-radius: 4px;
+  color: #222222;
+}
+
+input {
+  caret-color: #2e2e2e;
 }
