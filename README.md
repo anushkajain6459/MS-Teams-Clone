@@ -1,7 +1,7 @@
 ## Anushka's MS Teams Clone 💻💬👋
 
 * A fully functional web application that allows Real Time Communication for **multiple** users.
-* Demonstration of the Web App :
+* Demonstration of the Web App : https://youtu.be/GyrC10PrsUY
 * Link to the Design Doc : [Design Document](https://drive.google.com/drive/folders/1PV3ezBto45ivA5F6G6wzHCYvrxV8pf7I?usp=sharing)
 
 ### The Challenge 💡
@@ -36,7 +36,7 @@ Your solution should be a fully functional prototype with at least one mandatory
 	* CSS
 	* JavaScript
 	* EJS
-### Agile Methodology 👩🏻‍💻
+### Agile Methodology 🏃
 ** Agile** is a chain of development in which specific set of tasks are performed iteration wise according to the priority. I divided the web App into smaller chunks and worked on each of them separately. When each feature was successfully added and tested, I created a new branch, then generated a PR and merged it in my main branch if no conflicts were found. Agile methodology taught me how to work flawlessly and in an organized manner.
 
 ### Download Files 👇
