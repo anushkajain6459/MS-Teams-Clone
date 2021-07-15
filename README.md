@@ -37,7 +37,7 @@ Your solution should be a fully functional prototype with at least one mandatory
 	* JavaScript
 	* EJS
 ### Agile Methodology 🏃
-** Agile** is a chain of development in which specific set of tasks are performed iteration wise according to the priority. I divided the web App into smaller chunks and worked on each of them separately. When each feature was successfully added and tested, I created a new branch, then generated a PR and merged it in my main branch if no conflicts were found. Agile methodology taught me how to work flawlessly and in an organized manner.
+Agile is a chain of development in which specific set of tasks are performed iteration wise according to the priority. I divided the web App into smaller chunks and worked on each of them separately. When each feature was successfully added and tested, I created a new branch, then generated a PR and merged it in my main branch if no conflicts were found. Agile methodology taught me how to work flawlessly and in an organized manner.
 
 ### Download Files 👇
 * Go to my GitHub repository: https://github.com/anushkajain6459/MS-Teams-Clone
